@@ -1,0 +1,7 @@
+<form (submit)="login()" [formGroup]="loginForm">
+  <h2 class="text-xl font-medium">Login</h2>
+  <app-textfield [formGroup]="loginForm" fieldName="email"></app-textfield>
+  <app-textfield [formGroup]="loginForm" fieldName="password"></app-textfield>
+  <app-button name="Login"></app-button>
+  <div *ngIf="errorMessage">{{ errorMessage }}</div>
+</form>

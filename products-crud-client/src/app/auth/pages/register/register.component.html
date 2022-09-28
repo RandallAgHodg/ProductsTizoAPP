@@ -1,0 +1,19 @@
+<form>
+  <h2 class="text-xl font-medium">Register</h2>
+  <app-textfield fieldName="name"></app-textfield>
+  <app-textfield fieldName="email"></app-textfield>
+  <div class="flex flex-col justify-center">
+    <label for="fieldName" class="inline-block mb-2 text-gray-700">Role</label>
+    <div class="mb-3 xl:w-96">
+      <select
+        class="appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        aria-label="Default select example"
+      >
+        <option value="2">User</option>
+        <option value="1">Admin</option>
+      </select>
+    </div>
+  </div>
+  <app-textfield fieldName="password"></app-textfield>
+  <app-button name="Register"></app-button>
+</form>
