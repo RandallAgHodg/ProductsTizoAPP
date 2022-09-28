@@ -4,6 +4,7 @@ const jsonServer = require("json-server");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 
+
 const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
 const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
@@ -11,6 +12,7 @@ const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 server.use(cors());
+
 const SECRET_KEY = "123456789";
 const expiresIn = "1h";
 
@@ -108,6 +110,7 @@ server.post("/auth/register", (req, res) => {
   ({ id, name, email, role } = users[users.length - 1]);
   const token = createToken({ id, name, email, role });
   res.status(200).json({ token });
+
 });
 
 server.put("/auth/roles/:id", (req, res) => {
@@ -158,6 +161,7 @@ server.put("/auth/state/:id", (req, res) => {
   fs.writeFileSync("./users.json", JSON.stringify(userdb));
   const status = 204;
   res.status(status);
+
 });
 
 server.use("/api", router);
