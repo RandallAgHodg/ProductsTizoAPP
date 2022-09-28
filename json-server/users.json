@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "bruno",
+      "email": "bruno@email.com",
+      "role": "Admin",
+      "password": "bruno",
+      "enabled": "true"
+    },
+    {
+      "id": 2,
+      "name": "nilson",
+      "email": "nilson@email.com",
+      "role": "User",
+      "password": "nilson",
+      "enabled": "false"
+    },
+    {
+      "email": "correo@correo.com",
+      "password": "facil123",
+      "name": "Randall",
+      "enabled": true,
+      "role": "User",
+      "id": 3
+    }
+  ]
+}
