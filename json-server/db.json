@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Figs",
+      "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+      "price": 58.8643,
+      "stock": 85,
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Squash - Pattypan, Yellow",
+      "description": "Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "price": 92.9,
+      "stock": 19,
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Sambuca - Opal Nera",
+      "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
+      "price": 17.4965,
+      "stock": 31,
+      "category_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Wine - White, Concha Y Toro",
+      "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+      "price": 7.9599,
+      "stock": 8,
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Tandoori Curry Paste",
+      "description": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+      "price": 40.528,
+      "stock": 58,
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Beans - Butter Lrg Lima",
+      "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
+      "price": 35.9996,
+      "stock": 40,
+      "category_id": 1
+    },
+    {
+      "id": 8,
+      "name": "Bread - Pain Au Liat X12",
+      "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
+      "price": 81.6436,
+      "stock": 62,
+      "category_id": 2
+    },
+    {
+      "id": "1",
+      "name": "Pear",
+      "description": "Pear updated",
+      "stock": 12,
+      "price": 156
+    },
+    {
+      "name": "Pear",
+      "description": "Pear updated",
+      "stock": 12,
+      "price": 156,
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food"
+    },
+    {
+      "id": 2,
+      "name": "Medicine"
+    }
+  ]
+}
